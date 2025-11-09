@@ -48,7 +48,7 @@ const Register = () => {
             console.log(user);
 
             // add user to db
-            fetch('http://localhost:3000/users',{
+            fetch('https://smart-deals-server-phi.vercel.app/users',{
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

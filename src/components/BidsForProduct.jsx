@@ -18,7 +18,7 @@ const BidsForProduct = ({productDetails}) => {
 
         if(loading) return;
         
-        fetch(`http://localhost:3000/products/bids/${productId}`,{
+        fetch(`https://smart-deals-server-phi.vercel.app/products/bids/${productId}`,{
             headers: {
                 "Authorization": `Bearer ${user?.accessToken}`
             }

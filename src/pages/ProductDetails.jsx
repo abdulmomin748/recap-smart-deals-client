@@ -59,7 +59,7 @@ function ProductDetails() {
         }
 
         if(loading) return;
-        fetch(`http://localhost:3000/bids`,{
+        fetch(`https://smart-deals-server-phi.vercel.app/bids`,{
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
